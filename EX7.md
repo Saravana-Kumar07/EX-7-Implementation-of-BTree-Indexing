@@ -31,7 +31,8 @@ class BTree:
   def __init__(self, t):
     self.root = BTreeNode(True)
     self.t = t
-
+```
+```python
     # Insert node
   def insert(self, k):
     root = self.root
